@@ -73,7 +73,7 @@ Example execution:
 
 ## Project Structure
 
-src/
+[Program Codes](./src/)
 
 docs/
 
