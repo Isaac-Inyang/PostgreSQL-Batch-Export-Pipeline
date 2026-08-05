@@ -74,7 +74,9 @@ Example execution:
 ## Project Structure
 
 src/
+
 docs/
+
 sample_output/
 
 ## Future Improvements
