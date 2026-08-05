@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+.env
+
+*.csv
+
+*.parquet
+
+data_lake/
+
+venv/
