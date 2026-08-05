@@ -33,17 +33,29 @@ The pipeline streams query results in configurable batches, writes them incremen
 ## Pipeline Workflow
 
 PostgreSQL
+
 ↓
+
 SQL Query
+
 ↓
+
 Streaming Extraction
+
 ↓
+
 Batch Processing
+
 ↓
+
 CSV / Parquet Export
+
 ↓
+
 Row Count Validation
+
 ↓
+
 Execution Report
 
 ## Results
@@ -54,6 +66,10 @@ Example execution:
 - Execution time: 1.03 seconds
 - Throughput: 6,937 rows/sec
 - Validation: Passed
+
+## Pipeline Execution
+
+![Pipeline](docs/screenshots/IDLE_Shell_pipeline_output.png)
 
 ## Project Structure
 
