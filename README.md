@@ -71,6 +71,10 @@ Example execution:
 
 ![Pipeline](docs/screenshots/IDLE_Shell_pipeline_output.png)
 
+## Output Data
+
+![Csv_file](docs/screenshots/Output_data_csv.png)
+
 ## Project Structure
 
 [Program Codes](./src/)
