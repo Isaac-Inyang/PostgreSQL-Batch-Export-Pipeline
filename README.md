@@ -75,9 +75,9 @@ Example execution:
 
 [Program Codes](./src/)
 
-docs/
+[Docs](./docs/)
 
-sample_output/
+[sample output](./sample_output/)
 
 ## Future Improvements
 
