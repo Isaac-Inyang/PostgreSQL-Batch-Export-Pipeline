@@ -4,13 +4,22 @@ import os
 import pandas as pd
 import logging
 import time
+from dotenv import load_dotenv
 from sqlalchemy.exc import OperationalError
 from sqlalchemy import create_engine, text
 
+load_dotenv()
 
 # LOGICAL PATHS & CONNECTIONS
 
-Database_url = "postgresql+psycopg2://postgres:your_pasword@localhost:5432/postgres"
+Database_url = (
+    f"postgresql+psycopg2://"
+    f"{os.getenv('DB_USER')}:"
+    f"{os.getenv('DB_PASSWORD')}@"
+    f"{os.getenv('DB_HOST')}:"
+    f"{os.getenv('DB_PORT')}/"
+    f"{os.getenv('DB_NAME')}"
+)
 engine = create_engine(Database_url)
 
 query = text("""
